@@ -22,3 +22,6 @@ The clamp is triangular in order to securely hold papers using spring force. Thi
 
 
 Alternatives: Paper clip(Samuel Fay; US581901A) and Stapler(George McGill;U.S. patent #56,587)
+
+
+Home Page Identity: I removed the "three pillars" and "semester arc" sections from the home page because getting into the actual engineering work and assignments are what the reader is mostly interested in. The analyze, decide, communicate structure was briefly mentioned but it's reiterated in the way that I setup my assignments. I understand the trade-off: removing those sections means the reader loses a quick overview of the site's logical organization before clicking in. I'm willing to accept that cost to get the reader into the urgent information sooner.
