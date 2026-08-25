@@ -1,2 +1,12 @@
 #About Me
-This is how to edit
+
+**Joel Rivas**
+
+I am currently in my second year here at UNC Charlotte studying mechanical engineering. I see the world around me and it fascinates me how everything works, but I want to make them work better together, and not just from a mechanical stand point but also from a societal view. Growing up my father did construction, so I grew up doing many hands on activities such as building a car out of wood, or helping him make a tree house for me and my sister. Over time I grew curious about how certain things functioned while others didn't. Mechanical engineering is more than just understanding the way things work, but applying that and improving upon them. This is paramount in my thought process as an engineer. I try to gather all the information possible first, put my ideas down, and then formulate that into a manageable plan. Whenever I face a obstacle, I can go back to my initial ideas and try a different one, or completely add new ones to face the task at hand. At first I wanted to be a doctor when I was growing up, but engineering caught my eye. Now I want to pursue a concentration in biomedical engineering. Biomedical mixes both engineering and medicine. The idea of being able to provide a finished product to someone who truly needs it is the reason that I wanted to be an engineer in the first place. I'm excited to optimize my engineering process. One aspect of this is engineering drawing and CAD. I have experience with both, but I want to be more proficient. I'm also looking forward to learning how to properly use different engineering tools and which ones are more effective for different operational needs. This year I have many opportunities to further my engineering expertise and it keeps me motivated to push my limits.
+
+
+**Defending an Engineering Decision**
+
+Defending an engineering decision means looking at all sides of the decisions and comparing the outcome of those, theoretical or not, to your decision and still explaining that your decision was the right one. I currently have some experience defending my decisions because I've played on many sports teams and had to take feedback while also explaining that my decision was right even though it may not have seemed right to my teammates. I also had a project that required me to work with others and we gathered the data incorrectly and I had to convince them to do it again even if it meant having to do the whole project again in order to make sure my groupmates and I understood the material. I have experience defending my decisions, but in the case of defending my engineering decisions there is a lack of experience.
+
+I spent approximately 7 hours on this project.
