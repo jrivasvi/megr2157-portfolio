@@ -25,3 +25,8 @@ Alternatives: Paper clip(Samuel Fay; US581901A) and Stapler(George McGill;U.S. p
 
 
 Home Page Identity: I removed the "three pillars" and "semester arc" sections from the home page because getting into the actual engineering work and assignments are what the reader is mostly interested in. The analyze, decide, communicate structure was briefly mentioned but it's reiterated in the way that I setup my assignments. I understand the trade-off: removing those sections means the reader loses a quick overview of the site's logical organization before clicking in. I'm willing to accept that cost to get the reader into the urgent information sooner.
+
+One Intentional Customization: I changed the theme's primary color in mkdocs.yml from green to indigo. Green is the default color of the theme we were provided thus it doesn't really help maintain or grab a reader's attention. Green is also associated with everyday life such as eco-friendliness and task completion, but the goal with this document is to portray an engineering portfolio. Blue/indigo is often associated with schematics, CAD, engineering drawings, and many aspects of the engineering practice. With this being said indigo was a decision to better align the document with the intention of reminding the reader that this is an engineering piece of work. 
+
+Documentation Standard: This portfolio will record each piece of work to a level where a colleague could reproduce it with no assistance from me; this is what "finished" means in the context of this portfolio.
+
