@@ -71,5 +71,3 @@ I learned a lot such as that a lot of thinking goes into even the smallest detai
 
 
 
-
-
