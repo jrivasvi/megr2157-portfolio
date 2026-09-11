@@ -66,7 +66,7 @@ The pins would fail due to shear yielding which is supported by the equation τ 
 
 I learned a lot such as that a lot of thinking goes into even the smallest details of a structure, and that's not even considering the ones that were excluded. I also need to brush up on my CAD skills, and spread my work time better throughout the week. This project took me 7 hours to complete. 
 
-
+testing
 
 
 
