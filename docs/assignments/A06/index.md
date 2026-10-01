@@ -31,3 +31,7 @@ I spent a total of 5 hours on this project and the hardest part was getting the 
 <img width="855" height="135" alt="image" src="https://github.com/user-attachments/assets/03c3b46b-b2d5-453f-b416-32759778b2b6" />
 
 The expression d_hole_A= d_cylinder+0.01 in makes the link parametrically sound with respect to the bracket. Reflecting on this I realized that tolerancing is the idea that ensures that parts coincide with one another correctly and accurately. Before this week I believed dimensions to just be a number used to size things, but now I know that dimensions along with tolerances explain why a part is the size it is. Tight tolerances meant that the part is critical and a loose tolerance means that the part isn't paramount to holding a load or that it is cosmetic. 
+
+
+Fusion Link: https://a360.co/4hbSYWL
+
