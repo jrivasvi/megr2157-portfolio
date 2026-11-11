@@ -14,7 +14,8 @@ For the crosshead design, I first listed my knowns and unknowns. The material th
 For the crosshead deflection, I used the same load, material, and dimensions from my previous calculations to make sure the beam would not deflect more than 0.1mm. I first drew a FBD showing the applied load and reaction forces. I then used the deflection equation to solve for the required moment of inertia, which came out to be 4,83 x 10^-8 m^4. From there, I calculated a minimum beam height of 26.8mm and decided to use final dimensions of 200mm long, 30mm wide, and 40mm high to keep the deflection within the required limit.
 ![My Image](IMG_1407.jpeg)
 
-![My Image](
+For this part, I created a multi-view paper sketch of my crosshead to show how the design would look from the top, side, and front views. I included the main dimensions, such as the overall length of 240mm, the spacing between the holes of 200mm, and the different hole diameters. I also sketched the side and front views to show the height, width, and placement of the different features. This helped me get a better idea of how we need our crosshead to look before modeling it in SolidWorks.
+![My Image](IMG_1408.jpeg)
 
 
 
