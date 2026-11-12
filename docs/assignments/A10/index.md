@@ -65,8 +65,12 @@ For the parametric modeling portion, I used SolidWorks to create the crosshead a
 ### Crosshead and Lead Screw Assembly
 I created the crosshead in SolidWorks and added two holes spaced 200 mm apart for the lead screws. I then imported the downloaded lead screws and bronze flange nuts and used concentric and screw mates to align the components.
 
+![Crosshead and Lead Screw Assembly](Tensilephoto.png)
+
 ### Frame Assembly
 I assembled the frame using four 80 × 40 mm T-slot aluminum extrusions from McMaster-Carr. Two 54-inch rails were used for the vertical supports, and two 16-inch rails were used for the horizontal supports. I used assembly mates to position the rails and create the rectangular frame.
+
+![T-Slot Frame Assembly](FramePhoto.png)
 
 ### CAD File Downloads
 The SolidWorks part and assembly files are available below.
@@ -80,6 +84,30 @@ I used SolidWorks Simulation to perform a static analysis of the crosshead under
 Mesh Convergence
 I ran three simulations with progressively finer meshes while keeping the material, geometry, fixtures, and applied load the same.
 
+#### Run 1 – Initial Mesh
+
+![Run 1 Stress](A10_FEA_Initial_VonMises_Stress.png)
+
+![Run 1 Displacement](A10_FEA_Initial_Displacement.png)
+
+![Run 1 Grip Deflection](A10_FEA_Initial_Grip_Deflection.png)
+
+#### Run 2 – Refined Mesh
+
+![Run 2 Stress](A10_FEA_Run2_Stress.png)
+
+![Run 2 Displacement](A10_FEA_Run2_Displacement.png)
+
+![Run 2 Grip Deflection](A10_FEA_Run2_Grip_Deflection.png)
+
+#### Run 3 – Final Mesh
+
+![Run 3 Stress](A10_FEA_Run3_Stress.png)
+
+![Run 3 Displacement](A10_FEA_Run3_Displacement.png)
+
+![Run 3 Grip Deflection](A10_FEA_Run3_Grip_Deflection.png)
+
 | Measurement | Run 1 | Run 2 | Run 3 |
 |---|---:|---:|---:|
 | Max Mesh Size (mm) | 8.014 | 6.233 | 3.562 |
@@ -92,6 +120,12 @@ The displacement results remained relatively consistent as the mesh was refined,
 
 ### Crosshead Optimization
 I optimized the crosshead by reducing its height from 40 mm to 35 mm while keeping its other dimensions unchanged. I then repeated the simulation using the same mesh element size as the final original simulation.
+
+#### Optimized 35 mm Crosshead
+
+![Optimized Stress](A10_FEA_Optimized_35mm_Stress.png)
+
+![Optimized Displacement](A10_FEA_Optimized_35mm_Displacement.png)
 
 | Measurement | Original | Optimized |
 |---|---:|---:|
