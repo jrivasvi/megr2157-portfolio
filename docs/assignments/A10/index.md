@@ -22,7 +22,7 @@ The final calculation for the leadscrew was the max torque to provide the 2kN te
 <img width="1024" height="794" alt="image" src="https://github.com/user-attachments/assets/bbff224d-5d84-4b2e-b1f9-d7a0c11918fa" />
 
 
-## Leadscrew Selection
+## Leadscrew Selection- Joel Rivas
 The leadscrew we selected is a 1/2 in-10 ACME low carbon steel screw, 3 ft long (McMaster 98935A823). Its minor diameter of ~10mm is around double the minimum diameter of 4.92 mm to carry 1kN per screw with a safety factor of 4. The thread is self-locking, so that will aid holding the crosshead in position while under load. 
 
 <img width="1262" height="455" alt="image" src="https://github.com/user-attachments/assets/baae3b09-a594-4989-bf45-402351298b2e" />
