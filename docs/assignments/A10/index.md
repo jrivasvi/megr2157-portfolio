@@ -43,11 +43,70 @@ For the crosshead deflection, I used the same load, material, and dimensions fro
 For this part, I created a multi-view paper sketch of my crosshead to show how the design would look from the top, side, and front views. I included the main dimensions, such as the overall length of 240mm, the spacing between the holes of 200mm, and the different hole diameters. I also sketched the side and front views to show the height, width, and placement of the different features. This helped me get a better idea of how we need our crosshead to look before modeling it in SolidWorks.
 ![My Image](IMG_1408.jpeg)
 
-
-
 ## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+
+## Material Cost Table - Mike Sweeney
+The following table lists the selected components for the lead screw tensile tester, including quantities, unit prices, and total costs. Prices were obtained from McMaster-Carr. The crosshead was designed separately in SolidWorks and is not included in the material costs.
+
+| Item Number | Quantity | Name | Cost/Item | Total Cost | Purchase Link |
+|---|---:|---|---:|---:|---|
+| 1 | 2 | Bronze Acme Flange Nut | $125.72 | $251.44 | [95120A111](https://www.mcmaster.com/95120A111/) |
+| 2 | 2 | Needle-Roller Thrust Bearing | $4.46 | $8.92 | [5909K31](https://www.mcmaster.com/5909K31/) |
+| 3 | 4 | Thrust Bearing Washer | $1.40 | $5.60 | [5909K44](https://www.mcmaster.com/5909K44/) |
+| 4 | 2 | Linear Bearing Housing | $32.66 | $65.32 | [9804K1](https://www.mcmaster.com/9804K1/) |
+| 5 | 2 | 36-inch Acme Lead Screw | $9.90 | $19.80 | [98935A823](https://www.mcmaster.com/98935A823/) |
+| 6 | 2 | 54-inch T-Slot Frame Rail | $115.56 | $231.12 | [5537T914](https://www.mcmaster.com/5537T914/) |
+| 7 | 2 | 16-inch T-Slot Frame Rail | $40.32 | $80.64 | [5537T914](https://www.mcmaster.com/5537T914/) |
+| | | **Total Material Cost** | | **$662.84** | |
+
+## Parametric Modeling - Mike Sweeney
+For the parametric modeling portion, I used SolidWorks to create the crosshead and assemble the two lead screws and bronze flange nuts. I also assembled the aluminum T-slot frame using downloaded CAD components from McMaster-Carr. The lead screw mechanism and frame were modeled separately.
+
+### Crosshead and Lead Screw Assembly
+I created the crosshead in SolidWorks and added two holes spaced 200 mm apart for the lead screws. I then imported the downloaded lead screws and bronze flange nuts and used concentric and screw mates to align the components.
+
+### Frame Assembly
+I assembled the frame using four 80 × 40 mm T-slot aluminum extrusions from McMaster-Carr. Two 54-inch rails were used for the vertical supports, and two 16-inch rails were used for the horizontal supports. I used assembly mates to position the rails and create the rectangular frame.
+
+### CAD File Downloads
+The SolidWorks part and assembly files are available below.
+
+## Finite Element Analysis (FEA) - Mike Sweeney
+
+### FEA Model Setup
+I used SolidWorks Simulation to perform a static analysis of the crosshead under a 2,000 N load. The material was 6061 Aluminum Alloy. I applied Fixed Geometry to the inside surfaces of both lead screw holes and applied the downward force to a 20 × 20 mm region at the center of the crosshead. This simplified the actual nut and flange connections while allowing me to evaluate the stress and deflection of the crosshead.
+
+### Mesh Convergence
+Mesh Convergence
+I ran three simulations with progressively finer meshes while keeping the material, geometry, fixtures, and applied load the same.
+| Measurement | Run 1 | Run 2 | Run 3 |
+|---|---:|---:|---:|
+| Max Mesh Size (mm) | 8.014 | 6.233 | 3.562 |
+| Total Elements | 6,789 | 15,645 | 61,926 |
+| Max von Mises Stress (MPa) | 7.365 | 7.976 | 9.616 |
+| Max Displacement (mm) | 0.007798 | 0.007803 | 0.007818 |
+| Grip Deflection (mm) | -0.007560 | -0.007716 | -0.007581 |
+
+The displacement results remained relatively consistent as the mesh was refined, while the maximum stress continued to increase. This showed that displacement was stabilizing, but maximum stress had not fully converged.
+
+### Crosshead Optimization
+I optimized the crosshead by reducing its height from 40 mm to 35 mm while keeping its other dimensions unchanged. I then repeated the simulation using the same mesh element size as the final original simulation.
+
+| Measurement | Original | Optimized |
+|---|---:|---:|
+| Height (mm) | 40 | 35 |
+| Mass (g) | 975.24 | 853.33 |
+| Max Stress (MPa) | 9.616 | 12.06 |
+| Max Displacement (mm) | 0.007818 | 0.01038 |
+| Grip Deflection (mm) | -0.007581 | -0.008888 |
+| Safety Factor | 5.74 | 4.57 |
+
+The optimized design reduced the crosshead mass by 121.91 g (12.50%). Although stress and deflection increased, the calculated safety factor remained above 4, and the maximum displacement stayed below 0.1 mm under the modeled conditions. The safety-factor comparison is provisional because maximum stress convergence was not demonstrated.
+
+## Engineering Drawing - Mike Sweeney
+I optimized the crosshead by reducing its height from 40 mm to 35 mm while keeping its other dimensions unchanged. I then repeated the simulation using the same mesh element size as the final original simulation.
 
 ## Lessons Learned-Joel Rivas
 We learned to choose the real/tangible part first, and then take dimensions from that specific part because in the lead screw selection we originally worked out the values for an unavailable screw, and then had to adjust. Tracking units properly is also very important because we almost made a mistake with the torque calculation not converting mm to m. We also learned how to work with a team more effectively, and allowing people to play into their strengths. Communication was paramount in order to get this done to the best of our ability, and to check over one another's work in order to correct any unrecognized mistakes.
+
 
