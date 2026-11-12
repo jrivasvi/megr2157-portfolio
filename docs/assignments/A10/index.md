@@ -74,6 +74,9 @@ I assembled the frame using four 80 × 40 mm T-slot aluminum extrusions from McM
 
 ### CAD File Downloads
 The SolidWorks part and assembly files are available below.
+-
+-  [Optimized Crosshead – SolidWorks Part](A10_Crosshead_Optimized.SLDPRT)
+- [Lead Screw Assembly – SolidWorks Assembly](A10Part1Assem1.SLDASM)
 
 ## Finite Element Analysis (FEA) - Mike Sweeney
 
