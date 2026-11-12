@@ -1,6 +1,32 @@
 # A10 – Lead Screw Design Part 1
 
-## Objective
+## Objective- Joel Rivas
+This week were tasked with the initial setup for a 2 part project. We had to choose a lead screw using the diameter, rotational speed, and max torque. We also had to choose a nut and flange making sure they supported the load. Lastly, we had to design a crosshead with a max deflection of .1mm. The key constraints for this week were: no electronics, load capacity of 2kN split between the two lead screws, linear speed range of 1-50 mm/min, and a safety factor of 4. 
+
+## Leadscrew Diameter- Joel Rivas
+This first step was to calculate the minimum leadscrew diameter. I chose a low carbon steel because it is definitely strong enough, inexpensive, and works well with the bronze nut. McMaster didn't have the exact yield strength so I used the lower bound I found from an online steel properties table( https://us.misumi-ec.com/blog/yield-strength-stress-chart/ ), and this gave me a yield strength of 210 MPa. Using this value I was able to calculate the minimum diameter to be 4.92 mm or 0.194 in. The standard 1/2 in -10 ACME screw has a minor diameter of 10.2 mm which is more than enough according to my hand calculations, but McMaster didn't have an 8mm screw so the safest choice was to settle on the 1/2 in diameter screw. The length of 3 ft is greater than the minimum 18 in required while also making sure to leave space for the nut, thrust bearing, and crosshead. 
+
+
+<img width="1024" height="758" alt="image" src="https://github.com/user-attachments/assets/fd46322f-af75-4e65-9d99-e94e5a2405e4" />
+
+
+## Leadscrew Rotational Speed- Joel Rivas
+The second step was to calculate the range of rotational speed the lead screw could handle. The knowns for this part were the linear speed range of 1-50 mm/min, pitch of 0.1 in = 2.54 mm, and lead of 0.1in/rev= 2.54 mm/rev. The pitch and lead are the same in this example. The driving formula for this step was V=N*L which I rearranged to be N=V/L in order to be able to get the rotational speed from the lower and upper end of the linear speed range. The final range of rotational speed came out to be 0.39- 19.7 RPM. The bottom range is really slow and would require a gear reduction if it was ran. 
+
+<img width="1024" height="786" alt="image" src="https://github.com/user-attachments/assets/17364e1f-e64d-4bc5-b80c-14fdfc473a10" />
+
+
+## Leadscrew Torque- Joel Rivas
+The final calculation for the leadscrew was the max torque to provide the 2kN tension. The knowns for this part were: load per screw (P)=1000 N, Diameter(d)= 12.7 mm, Pitch(p)/Lead(L)= 2.54mm, Pitch diameter (d_m)= 11.43mm, Friction Coefficient(mu)= 0.15, C= 39.898 mm(using pitch diameter). We had to find the effort force in order to find the max torque per screw. We used the power screw formulas we derived in class which were F=P*((mu*C+L)/(C-mu*L)) and T=F*r. In this part the radius we used was half of the pitch diameter. The first free body diagram is the unwrapped thread as an inclined plane, and the second is the more real world depiction showing the load acting down the screw and the torque being applied at the top. The torque came out to 1.23 N*m. There is also another formula in the handbook which says T_d=(P*L)/(2pi*e) where e is the ball screw efficiency. Plugging in our values gets a max torque of 1.01 N*m which isn't too far from the calculated value we had previously, but it also uses a lower friction coefficient which explains why the value is lower. This value helped confirm that the torque calculation was done correctly.  
+
+<img width="1024" height="794" alt="image" src="https://github.com/user-attachments/assets/bbff224d-5d84-4b2e-b1f9-d7a0c11918fa" />
+
+
+## Leadscrew Selection
+The leadscrew we selected is a 1/2 in-10 ACME low carbon steel screw, 3 ft long (McMaster 98935A823). Its minor diameter of ~10mm is around double the minimum diameter of 4.92 mm to carry 1kN per screw with a safety factor of 4. The thread is self-locking, so that will aid holding the crosshead in position while under load. 
+
+<img width="1262" height="455" alt="image" src="https://github.com/user-attachments/assets/baae3b09-a594-4989-bf45-402351298b2e" />
+
 
 
 ## Nut and Flange Calculations - Drew Wayne
@@ -22,5 +48,6 @@ For this part, I created a multi-view paper sketch of my crosshead to show how t
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
-## Communicate
+## Lessons Learned-Joel Rivas
+We learned to choose the real/tangible part first, and then take dimensions from that specific part because in the lead screw selection we originally worked out the values for an unavailable screw, and then had to adjust. Tracking units properly is also very important because we almost made a mistake with the torque calculation not converting mm to m. We also learned how to work with a team more effectively, and allowing people to play into their strengths. Communication was paramount in order to get this done to the best of our ability, and to check over one another's work in order to correct any unrecognized mistakes.
 
