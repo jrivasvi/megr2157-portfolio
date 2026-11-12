@@ -79,6 +79,7 @@ I used SolidWorks Simulation to perform a static analysis of the crosshead under
 ### Mesh Convergence
 Mesh Convergence
 I ran three simulations with progressively finer meshes while keeping the material, geometry, fixtures, and applied load the same.
+
 | Measurement | Run 1 | Run 2 | Run 3 |
 |---|---:|---:|---:|
 | Max Mesh Size (mm) | 8.014 | 6.233 | 3.562 |
