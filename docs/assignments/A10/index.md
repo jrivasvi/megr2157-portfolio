@@ -74,7 +74,8 @@ I assembled the frame using four 80 × 40 mm T-slot aluminum extrusions from McM
 
 ### CAD File Downloads
 The SolidWorks part and assembly files are available below.
-- [Original Crosshead – SolidWorks Part](A10_Crosshead.SLDPRT)]
+
+- [Original Crosshead – SolidWorks Part](A10_Crosshead.SLDPRT)
 - [Optimized Crosshead – SolidWorks Part](A10_Crosshead_Optimized.SLDPRT)
 - [Lead Screw Assembly – SolidWorks Assembly](A10Part1Assem1.SLDASM)
 
@@ -84,7 +85,6 @@ The SolidWorks part and assembly files are available below.
 I used SolidWorks Simulation to perform a static analysis of the crosshead under a 2,000 N load. The material was 6061 Aluminum Alloy. I applied Fixed Geometry to the inside surfaces of both lead screw holes and applied the downward force to a 20 × 20 mm region at the center of the crosshead. This simplified the actual nut and flange connections while allowing me to evaluate the stress and deflection of the crosshead.
 
 ### Mesh Convergence
-Mesh Convergence
 I ran three simulations with progressively finer meshes while keeping the material, geometry, fixtures, and applied load the same.
 
 #### Run 1 – Initial Mesh
@@ -142,9 +142,16 @@ I optimized the crosshead by reducing its height from 40 mm to 35 mm while keepi
 The optimized design reduced the crosshead mass by 121.91 g (12.50%). Although stress and deflection increased, the calculated safety factor remained above 4, and the maximum displacement stayed below 0.1 mm under the modeled conditions. The safety-factor comparison is provisional because maximum stress convergence was not demonstrated.
 
 ## Engineering Drawing - Mike Sweeney
-I optimized the crosshead by reducing its height from 40 mm to 35 mm while keeping its other dimensions unchanged. I then repeated the simulation using the same mesh element size as the final original simulation.
+I created a detailed engineering drawing of the original crosshead using SolidWorks. The drawing includes front, top, right-side, and isometric views in third-angle projection, along with dimensions, tolerances, a title block, and the bronze flange nut interface specifications.
+
+[View Crosshead Engineering Drawing (PDF)](A10_Crosshead_Drawing.pdf)
 
 ## Lessons Learned-Joel Rivas
 We learned to choose the real/tangible part first, and then take dimensions from that specific part because in the lead screw selection we originally worked out the values for an unavailable screw, and then had to adjust. Tracking units properly is also very important because we almost made a mistake with the torque calculation not converting mm to m. We also learned how to work with a team more effectively, and allowing people to play into their strengths. Communication was paramount in order to get this done to the best of our ability, and to check over one another's work in order to correct any unrecognized mistakes.
 
+## Design Challenges and Corrections - Mike Sweeney
+One of the main challenges I encountered was assembling the downloaded components in SolidWorks. Aligning the lead screws with the bronze flange nuts required adjusting the assembly mates to properly position the components. I also had difficulty integrating the frame with the lead screw mechanism, so I modeled the two assemblies separately.
 
+
+Time Spent 
+We spent about 10-12 hours collectively on this project. 
