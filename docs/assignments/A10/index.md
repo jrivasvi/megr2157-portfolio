@@ -153,5 +153,5 @@ We learned to choose the real/tangible part first, and then take dimensions from
 One of the main challenges I encountered was assembling the downloaded components in SolidWorks. Aligning the lead screws with the bronze flange nuts required adjusting the assembly mates to properly position the components. I also had difficulty integrating the frame with the lead screw mechanism, so I modeled the two assemblies separately.
 
 
-Time Spent 
+## Time Spent 
 We spent about 10-12 hours collectively on this project. 
