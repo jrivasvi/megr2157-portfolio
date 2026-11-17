@@ -19,8 +19,8 @@ Voltage(Volts): For our NEMA 34 stepper motor, we decided to use a voltage range
 Speed Range: For our design, we used a 1/2"-10 Acme lead screw with a 0.100" pitch and a 10:1 planetary gearbox. Based on our calculations, at the maximum speed of 50 mm/min, the lead screw rotates at about 20 RPM while the motor rotates at 200 RPM. At our minimum speed of 1 mm/min, the lead screw rotates at about 0.4 RPM and the motor rotates at 4 RPM. Our selected motor is rated for speeds up to 2,700 RPM, while our design only requires a maximum of 200 RPM. This means our motor will be operating well below its maximum rated speed throughout the required 1–50 mm/min range. With a 24 V or 48 V power supply, we expect the motor and gearbox combination to provide enough torque to meet our design requirements while maintaining the necessary speed range.
 
 Selected Hardware:
-- Motor: NEMA 34 Stepper Motor
-- Gearbox: 10:1 Planetary Gearbox for NEMA 34
+- Motor: NEMA 34 Stepper Motor   (6627T58)
+- Gearbox: 10:1 Planetary Gearbox for NEMA 34   (64815K53)
 - Output Torque: 8.5N*m x 10 x 0.85 = 72.25N*m
 - Operating Speed: The NEMA stepper motor will have to run at 250RPM to output 25RPM at the gearbox.
 
