@@ -25,7 +25,8 @@ Selected Hardware:
 - Operating Speed: The NEMA stepper motor will have to run at 250RPM to output 25RPM at the gearbox.
 
 ## Motor Mount Design
-
+![My Image](IMG_1424.jpeg)
+![My Image](
 
 
 
