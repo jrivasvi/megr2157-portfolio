@@ -32,7 +32,7 @@ For my motor mount design, I used 6061-T6 aluminum with a safety factor of 4. I 
 
 ## Coupler Design
 For my coupler design, I selected 4130 steel with a safety factor of 4. I used the torsional shear stress equations to determine if the coupler could safely handle the applied torque of 54.99 N·m. After calculating an allowable shear stress of 66.25 MPa, I checked an outer diameter of 22 mm with an inner diameter of 12.7 mm and calculated a maximum shear stress of 29.61 MPa. Since the maximum shear stress was below the allowable stress, I determined that the selected coupler dimensions would be suitable for my design. I also sketched the coupler and labeled its dimensions to show how it connects the gearbox output shaft to the lead screw.
-![My Image](
+![My Image](IMG_1427.jpeg)
 
 
 
