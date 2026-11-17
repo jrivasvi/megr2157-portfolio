@@ -23,6 +23,7 @@ Selected Hardware:
 - Gearbox: 10:1 Planetary Gearbox for NEMA 34   (64815K53)
 - Output Torque: 8.5N*m x 10 x 0.85 = 72.25N*m
 - Operating Speed: The NEMA stepper motor will have to run at 250RPM to output 25RPM at the gearbox.
+![My Image](IMG_1422.jpeg)
 
 ## Motor Mount Design - Drew Wayne
 For my motor mount design, I used 6061-T6 aluminum with a safety factor of 4. I calculated the force acting on each mounting bolt and used the allowable bearing stress to determine a minimum plate thickness of 1.04 mm. I also created free-body diagrams to show how the torque affects the mounting bolts and where the bearing stress occurs. After completing the calculations, I selected the 6627T58 stepper motor and used its dimensions and mounting-hole locations as a reference for designing my motor mount in SolidWorks. Also, I ended up going with a custom 6061-T6 aluminum motor mount to help comply with the motor selected.
