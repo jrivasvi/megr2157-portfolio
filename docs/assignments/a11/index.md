@@ -72,7 +72,7 @@ _Reference your concept selection (Pugh matrix) here. How does this design follo
 
 ## Communicate
 
-## Final Combined Bill of Materials - Michael Sweeney
+## Final Combined Bill of Materials - Mike Sweeney
 ## Bill of Materials and Labor Costs - Mike Sweeney
 
 The following Bill of Materials combines the components selected for Parts 1 and 2 of the tensile tester design. Material costs were obtained from McMaster-Carr. A $75 allowance was included for the custom 6061-T6 aluminum components. Engineering labor was calculated at the required rate of $35 per hour.
@@ -115,3 +115,8 @@ Engineering labor was calculated at $35 per hour using the time recorded by each
 | Material Costs | $4,679.90 |
 | Engineering Labor Costs | $717.50 |
 | Total Estimated Project Cost | **$5,397.40** | |
+
+## Lessons Learned - Mike Sweeney
+Throughout this assignment, our team learned how the motor, lead screws, couplers, bearings, and frame connections must work together to create a functional tensile tester. During motor selection, we learned the importance of using the required torque and rotational speed to evaluate motor and gearbox performance rather than selecting components based only on their max ratings. We also applied bearing stress and torsional shear stress equations to determine suitable dimesnions for motor mounts and shaft couplers. 
+
+During the frame design, we learned how axial loading and motor-induced twisting moments affects the connections between the horizontal and vertical supports. Using free-body diagrams and static equilibrium equations, we calculated the reaction forces and evaluated the stresses acting on the mounting hardware. We also learned how important compnent compatbility is when selecting commericaly availble parts, particuarly mounting hole pattersn shaft diameter and T slot Connector Dimensions.
