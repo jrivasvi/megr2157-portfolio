@@ -246,3 +246,5 @@ Motor Mount Body and Drawing- https://github.com/jrivasvi/megr2157-portfolio/blo
 Crosshead- https://github.com/jrivasvi/megr2157-portfolio/blob/f3823504fb5fd96aa32c6df925f3d2ff646305ff/docs/assignments/A10/A10_Crosshead.SLDPRT
 
 Full Assembly- https://github.com/jrivasvi/megr2157-portfolio/blob/6ca8a3e4c3e1ed9a4f60a610d9fa1de76db62d0b/docs/assignments/a11/A10Part2Assem1%20(1).SLDASM
+https://github.com/jrivasvi/megr2157-portfolio/blob/280c40da4700c96512a6fc2b04a92e027888af25/docs/assignments/a11/A10Part2Assem1%20(1)%20Drawing.SLDDRW
+
