@@ -215,7 +215,7 @@ One challenge our team encountered was integrating the selected components into 
 ## Time Spent 
 Our team spent a combined 25.5 hours on these assignments:
 - Mike Sweeney: 9 hours
-- Joel Rivas: 11.5 hours
+- Joel Rivas: 12.5 hours
 - Drew Wayne: 5 hours
 
 ## 2157 Section- Joel Rivas
