@@ -72,6 +72,8 @@ Selected Component: [McMaster-Carr 5537T195 – Extended Closed Gusset Bracket](
 
 I installed one bracket at each upper corner of the existing frame in SolidWorks. The calculations provided a preliminary assessment of the connection loading, but complete verification of the safety factor would require additional checks of the fasteners and T-slot attachments.
 
+<img width="451" height="352" alt="image" src="https://github.com/user-attachments/assets/a900bede-921c-4e45-8c18-b041601dd380" />
+
 ## Floating Bearing Mount Design - Drew Wayne
 For my floating bearing mount, I designed it to support the bottom end of the ½-inch lead screw while still allowing it to rotate smoothly without binding. I needed to make sure the lead screw stayed aligned with the rest of the system, so I selected an RC3 sliding fit using the American National Standard Running and Sliding Fits table on page 654 of the Machinery’s Handbook.
 
@@ -185,3 +187,7 @@ Floating Bearing Mount Drawing
 
 Motor Mount Drawing
 <img width="1650" height="1275" alt="motor_mount_drawing_page-0001" src="https://github.com/user-attachments/assets/f2a1d351-8523-4c34-9930-abfbb1837460" />
+
+
+Cross Head Drawing
+<img width="2000" height="1414" alt="image" src="https://github.com/user-attachments/assets/8d40f99d-16ff-423c-b149-0e79b7ced72a" />
