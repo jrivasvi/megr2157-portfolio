@@ -230,3 +230,7 @@ Motor Mount Drawing
 
 Cross Head Drawing
 <img width="2000" height="1414" alt="image" src="https://github.com/user-attachments/assets/8d40f99d-16ff-423c-b149-0e79b7ced72a" />
+
+
+## CAD Downloads:
+docs/assignments/a11/Floating Bearing Mount Drawing.zip
