@@ -76,8 +76,39 @@ For the actual mount, I calculated a plate with four clearance holes so it could
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
-## Communicate
+## Top Frame FEA
+Below are the first trial of the stress, deflection, and strain of the top frame. The frame was constrained to frame brackets and motor brackets. The forces applied were the two 1kN force caused by the lead screw, and the torque of 55.9 Nm caused by each motor. 
 
+This is the von mises curve
+<img width="1062" height="463" alt="image" src="https://github.com/user-attachments/assets/259e5caa-56f9-427b-8edd-f4c7c4c69072" />
+
+
+This is the deflection result
+<img width="1045" height="421" alt="image" src="https://github.com/user-attachments/assets/f96fbb7f-c357-45e1-8239-b89789693233" />
+
+
+This is the strain result
+<img width="1019" height="429" alt="image" src="https://github.com/user-attachments/assets/02461e33-a6a1-4a0a-b4a3-4972f4c7f19b" />
+
+
+Below are the results from the second trial of the stress, deflection, and strain of the top frame.
+
+This is the von mises curve
+
+<img width="681" height="405" alt="image" src="https://github.com/user-attachments/assets/75d0e7cd-95a4-49de-add4-a685f25db3f8" />
+
+
+This is the deflection result
+
+<img width="651" height="393" alt="image" src="https://github.com/user-attachments/assets/4ca49fb1-548d-4886-937b-8eecf3bc2a91" />
+
+
+This is the strain result
+
+<img width="634" height="395" alt="image" src="https://github.com/user-attachments/assets/87f2f2e5-c623-4b82-a28e-5a4112704b47" />
+
+
+Looking at both runs the maximum stress in the first was 1.509*10^7 Pa compared to 1.523*10^7 Pa in the second. Both occurred at the same location which was at one of the corners of the bottom side flange. This location proves that the peak stress is at the end of the beam. The deflection in the first run was 6.674*10^-3 mm compared to 6.679*10^-3 mm. These values are both really small and show that the beam barely moves in response to the loads, but it does move the most at the center in both cases. The strain in the first run was 5.354*10^-4 and the second run resulted in a total strain of 5.24*10^-5. The strain was greatest in both at the top middle of the frame. The factor of safety was about 21.5, which shows that we definitely had too much material. If we were to adjust it more we would decrease the total amount of material in order to get it closer to a safety factor of 4.
 ## Final Combined Bill of Materials - Mike Sweeney
 ## Bill of Materials and Labor Costs - Mike Sweeney
 
