@@ -25,15 +25,23 @@ Selected Hardware:
 - Operating Speed: The NEMA stepper motor will have to run at 250RPM to output 25RPM at the gearbox.
 ![My Image](IMG_1422.jpeg)
 
+<img width="472" height="338" alt="image" src="https://github.com/user-attachments/assets/51f67882-9c59-4d66-a0bf-1750e2649f0f" />
+
+
 ## Motor Mount Design - Drew Wayne
 For my motor mount design, I used 6061-T6 aluminum with a safety factor of 4. I calculated the force acting on each mounting bolt and used the allowable bearing stress to determine a minimum plate thickness of 1.04 mm. I also created free-body diagrams to show how the torque affects the mounting bolts and where the bearing stress occurs. After completing the calculations, I selected the 6627T58 stepper motor and used its dimensions and mounting-hole locations as a reference for designing my motor mount in SolidWorks. Also, I ended up going with a custom 6061-T6 aluminum motor mount to help comply with the motor selected.
 ![My Image](IMG_1424.jpeg)
 ![My Image](IMG_1423.jpeg)
 
+<img width="569" height="460" alt="image" src="https://github.com/user-attachments/assets/7b558165-9f2a-4f54-8ac4-83fd196f1e9e" />
+
 
 ## Coupler Design - Drew Wayne
 For my coupler design, I selected 4130 steel with a safety factor of 4. I used the torsional shear stress equations to determine if the coupler could safely handle the applied torque of 54.99 N·m. After calculating an allowable shear stress of 66.25 MPa, I checked an outer diameter of 22 mm with an inner diameter of 12.7 mm and calculated a maximum shear stress of 29.61 MPa. Since the maximum shear stress was below the allowable stress, I determined that the selected coupler dimensions would be suitable for my design. I also sketched the coupler and labeled its dimensions to show how it connects the gearbox output shaft to the lead screw. For the coupler, I chose the part 61005k122 from MCMaster.
 ![My Image](IMG_1427.jpeg)
+
+<img width="447" height="317" alt="image" src="https://github.com/user-attachments/assets/afdeecaf-a316-4f01-a50a-6e90ccaa3995" />
+
 
 ## Frame Connector Analysis - Mike Sweeney
 
@@ -73,10 +81,13 @@ I decided to use 6061-T6 aluminum for the floating bearing mount because it is s
 
 For the actual mount, I calculated a plate with four clearance holes so it could be bolted securely to the bottom frame. This also makes it easier to install or remove if needed. I sized the center hole using the RC3 fit tolerances to help support the lead screw while allowing it to rotate smoothly during operation.
 
+<img width="531" height="412" alt="image" src="https://github.com/user-attachments/assets/badc16fd-f2f1-4850-8d1e-f6ddbbd0fa13" />
+
+
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
-## Top Frame FEA
+## Top Frame FEA- Joel Rivas
 Below are the first trial of the stress, deflection, and strain of the top frame. The frame was constrained to frame brackets and motor brackets. The forces applied were the two 1kN force caused by the lead screw, and the torque of 55.9 Nm caused by each motor. 
 
 This is the von mises curve
