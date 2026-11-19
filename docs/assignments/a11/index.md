@@ -176,3 +176,12 @@ Our team spent a combined 20.5 hours on these assignments:
 - Mike Sweeney: 9 hours
 - Joel Rivas: 6.5 hours
 - Drew Wayne: 5 hours
+
+## 2157 Section- Joel Rivas
+
+Floating Bearing Mount Drawing
+<img width="1650" height="1275" alt="floating_bearing_mount_drawing_page-0001" src="https://github.com/user-attachments/assets/03a678ec-7768-4e83-800b-db5c06ac0af5" />
+
+
+Motor Mount Drawing
+<img width="1650" height="1275" alt="motor_mount_drawing_page-0001" src="https://github.com/user-attachments/assets/f2a1d351-8523-4c34-9930-abfbb1837460" />
