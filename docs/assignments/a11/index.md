@@ -71,3 +71,47 @@ I installed one bracket at each upper corner of the existing frame in SolidWorks
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
 ## Communicate
+
+## Final Combined Bill of Materials - Michael Sweeney
+## Bill of Materials and Labor Costs - Mike Sweeney
+
+The following Bill of Materials combines the components selected for Parts 1 and 2 of the tensile tester design. Material costs were obtained from McMaster-Carr. A $75 allowance was included for the custom 6061-T6 aluminum components. Engineering labor was calculated at the required rate of $35 per hour.
+
+### Combined Bill of Materials
+
+| Component | Qty. | Unit Cost | Total Cost | Part Number |
+|---|---:|---:|---:|---|
+| Bronze Acme Flange Nut | 2 | $125.72 | $251.44 | [95120A111](https://www.mcmaster.com/95120A111/) |
+| Needle-Roller Thrust Bearing | 2 | $4.46 | $8.92 | [5909K31](https://www.mcmaster.com/5909K31/) |
+| Thrust Bearing Washer | 4 | $1.40 | $5.60 | [5909K44](https://www.mcmaster.com/5909K44/) |
+| Linear Bearing Housing | 2 | $32.66 | $65.32 | [9804K1](https://www.mcmaster.com/9804K1/) |
+| 36-inch Acme Lead Screw | 2 | $9.90 | $19.80 | [98935A823](https://www.mcmaster.com/98935A823/) |
+| 54-inch T-Slot Frame Rail | 2 | $115.56 | $231.12 | [5537T914](https://www.mcmaster.com/5537T914/) |
+| 16-inch T-Slot Frame Rail | 2 | $40.32 | $80.64 | [5537T914](https://www.mcmaster.com/5537T914/) |
+| NEMA 34 Stepper Motor | 2 | $465.37 | $930.74 | [6627T58](https://www.mcmaster.com/6627T58/) |
+| 10:1 Planetary Gearbox | 2 | $1426.19 | $2852.38 | [64815K53](https://www.mcmaster.com/64815K53/) |
+| Steel Shaft Coupler | 2 | $57.43 | $114.86 | [61005K122](https://www.mcmaster.com/61005K122/) |
+| Extended Gusset Bracket | 2 | $22.04 | $44.08 | [5537T195](https://www.mcmaster.com/5537T195/) |
+| Custom 6061-T6 Aluminum Stock | 1 lot | $75.00 | $75.00 | Estimated Allowance |
+| **Total Material Cost** | | | $4679.90 | |
+
+*The $75 custom aluminum cost is an estimated allowance. The vertical frame rails are priced as 54-inch stock, which was shortened to 42 inches for the revised design.*
+
+### Engineering Labor Costs
+
+Engineering labor was calculated at $35 per hour using the time recorded by each team member.
+
+| Team Member | Hours | Hourly Rate | Labor Cost |
+|---|---:|---:|---:|
+| Mike Sweeney | 9 | $35.00 | $315.00 |
+| Joel Rivas | 6.5 | $35.00 | $227.50 |
+| Drew Wayne | 5 | $35.00 | $175.00 |
+| **Total** | **20.5** | | **$717.50** |
+
+### Total Project Cost
+
+| Cost Category | Total |
+|---|---:|
+| Material Costs | $4,679.90 |
+| Engineering Labor Costs | $717.50 |
+| Total Estimated Project Cost | **$5,397.40** | |
