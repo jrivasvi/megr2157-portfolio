@@ -228,6 +228,11 @@ Motor Mount Drawing
 <img width="1650" height="1275" alt="motor_mount_drawing_page-0001" src="https://github.com/user-attachments/assets/f2a1d351-8523-4c34-9930-abfbb1837460" />
 
 
+Full Assembly
+<img width="1650" height="1275" alt="A11_Assemblydrawing" src="https://github.com/user-attachments/assets/f2414416-e9fc-48bb-bf23-ff55c143f88d" />
+
+
+
 Cross Head Drawing
 <img width="2000" height="1414" alt="image" src="https://github.com/user-attachments/assets/8d40f99d-16ff-423c-b149-0e79b7ced72a" />
 
