@@ -35,15 +35,6 @@ For my motor mount design, I used 6061-T6 aluminum with a safety factor of 4. I 
 For my coupler design, I selected 4130 steel with a safety factor of 4. I used the torsional shear stress equations to determine if the coupler could safely handle the applied torque of 54.99 N·m. After calculating an allowable shear stress of 66.25 MPa, I checked an outer diameter of 22 mm with an inner diameter of 12.7 mm and calculated a maximum shear stress of 29.61 MPa. Since the maximum shear stress was below the allowable stress, I determined that the selected coupler dimensions would be suitable for my design. I also sketched the coupler and labeled its dimensions to show how it connects the gearbox output shaft to the lead screw. For the coupler, I chose the part 61005k122 from MCMaster.
 ![My Image](IMG_1427.jpeg)
 
-## Floating Bearing Mount Design - Drew Wayne
-For my floating bearing mount, I designed it to support the bottom end of the ½-inch lead screw while still allowing it to rotate smoothly without binding. I needed to make sure the lead screw stayed aligned with the rest of the system, so I selected an RC3 sliding fit using the American National Standard Running and Sliding Fits table on page 654 of the Machinery’s Handbook.
-
-Since my lead screw has a diameter of 0.5 inches, I used the size range of 0.40 to 0.71 inches from the table. Based on the RC3 fit, the clearance range is 0.0006 to 0.0017 inches. The hole tolerances are +0.0007/0 inches, while the shaft tolerances are -0.0006/-0.0010 inches. Using these values, I determined that the hole diameter should range from 0.5000 to 0.5007 inches and the shaft diameter should range from 0.4990 to 0.4994 inches.
-
-I decided to use 6061-T6 aluminum for the floating bearing mount because it is strong enough for the application, easy to machine, and matches the other aluminum components in my design. I chose the RC3 fit because it provides enough clearance for the lead screw to rotate freely while still keeping it properly aligned. If the fit was too tight, it could cause unnecessary friction and binding, while too much clearance could allow the lead screw to move around more than needed.
-
-For the actual mount, I calculated a plate with four clearance holes so it could be bolted securely to the bottom frame. This also makes it easier to install or remove if needed. I sized the center hole using the RC3 fit tolerances to help support the lead screw while allowing it to rotate smoothly during operation.
-
 ## Frame Connector Analysis - Mike Sweeney
 
 The objective of 
@@ -66,6 +57,15 @@ I selected two McMaster-Carr 5537T195 extended closed gusset brackets to connect
 Selected Component: [McMaster-Carr 5537T195 – Extended Closed Gusset Bracket](https://www.mcmaster.com/5537T195/)
 
 I installed one bracket at each upper corner of the existing frame in SolidWorks. The calculations provided a preliminary assessment of the connection loading, but complete verification of the safety factor would require additional checks of the fasteners and T-slot attachments.
+
+## Floating Bearing Mount Design - Drew Wayne
+For my floating bearing mount, I designed it to support the bottom end of the ½-inch lead screw while still allowing it to rotate smoothly without binding. I needed to make sure the lead screw stayed aligned with the rest of the system, so I selected an RC3 sliding fit using the American National Standard Running and Sliding Fits table on page 654 of the Machinery’s Handbook.
+
+Since my lead screw has a diameter of 0.5 inches, I used the size range of 0.40 to 0.71 inches from the table. Based on the RC3 fit, the clearance range is 0.0006 to 0.0017 inches. The hole tolerances are +0.0007/0 inches, while the shaft tolerances are -0.0006/-0.0010 inches. Using these values, I determined that the hole diameter should range from 0.5000 to 0.5007 inches and the shaft diameter should range from 0.4990 to 0.4994 inches.
+
+I decided to use 6061-T6 aluminum for the floating bearing mount because it is strong enough for the application, easy to machine, and matches the other aluminum components in my design. I chose the RC3 fit because it provides enough clearance for the lead screw to rotate freely while still keeping it properly aligned. If the fit was too tight, it could cause unnecessary friction and binding, while too much clearance could allow the lead screw to move around more than needed.
+
+For the actual mount, I calculated a plate with four clearance holes so it could be bolted securely to the bottom frame. This also makes it easier to install or remove if needed. I sized the center hole using the RC3 fit tolerances to help support the lead screw while allowing it to rotate smoothly during operation.
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
@@ -120,3 +120,11 @@ Engineering labor was calculated at $35 per hour using the time recorded by each
 Throughout this assignment, our team learned how the motor, lead screws, couplers, bearings, and frame connections must work together to create a functional tensile tester. During motor selection, we learned the importance of using the required torque and rotational speed to evaluate motor and gearbox performance rather than selecting components based only on their max ratings. We also applied bearing stress and torsional shear stress equations to determine suitable dimesnions for motor mounts and shaft couplers. 
 
 During the frame design, we learned how axial loading and motor-induced twisting moments affects the connections between the horizontal and vertical supports. Using free-body diagrams and static equilibrium equations, we calculated the reaction forces and evaluated the stresses acting on the mounting hardware. We also learned how important compnent compatbility is when selecting commericaly availble parts, particuarly mounting hole pattersn shaft diameter and T slot Connector Dimensions.
+
+One challenge our team encountered was integrating the selected components into the existing SolidWorks assembly. We modified the frame dimensions to create a more manageable design and adjusted assembly mates to align the components. If we were to improve the design further, we would verify the complete connection strengths and evaluate additional mounting arrangements to improve structural rigidity. 
+
+## Time Spent 
+Our team spent a combined 20.5 hours on these assignments:
+- Mike Sweeney: 9 hours
+- Joel Rivas: 6.5 hours
+- Drew Wayne: 5 hours
