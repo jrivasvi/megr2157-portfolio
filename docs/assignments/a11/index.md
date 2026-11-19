@@ -233,5 +233,8 @@ Cross Head Drawing
 
 
 ## CAD Downloads:
-[docs/assignments/a11/Floating Bearing Mount Drawing.zip
+Floating Bearing Mount Body and Drawing- [docs/assignments/a11/Floating Bearing Mount Drawing.zip
 ](https://github.com/jrivasvi/megr2157-portfolio/blob/7b3990b0b9bd98d450a4f21446d4f0ec61d1ffdd/docs/assignments/a11/Floating%20Bearing%20Mount%20Drawing.zip)
+
+Motor Mount Body and Drawing- https://github.com/jrivasvi/megr2157-portfolio/blob/c7275b446ebd07cb2e053e348c9e5725b097ab10/docs/assignments/a11/MotorMount%20Drawing.zip
+
