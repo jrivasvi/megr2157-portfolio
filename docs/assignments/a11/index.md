@@ -122,6 +122,45 @@ This is the strain result
 
 
 Looking at both runs the maximum stress in the first was 1.509*10^7 Pa compared to 1.523*10^7 Pa in the second. Both occurred at the same location which was at one of the corners of the bottom side flange. This location proves that the peak stress is at the end of the beam. The deflection in the first run was 6.674*10^-3 mm compared to 6.679*10^-3 mm. These values are both really small and show that the beam barely moves in response to the loads, but it does move the most at the center in both cases. The strain in the first run was 5.354*10^-4 and the second run resulted in a total strain of 5.24*10^-5. The strain was greatest in both at the top middle of the frame. The factor of safety was about 21.5, which shows that we definitely had too much material. If we were to adjust it more we would decrease the total amount of material in order to get it closer to a safety factor of 4.
+
+
+## Vertical Frame FEA
+For the vertical frame we only tested one singular leg meaning that only half of the forces were necessary. I used 1 kN of axial force going downward, and a transverse load caused by the motors torque which worked out to be 549.9 N because 54.99Nm divided by .10m. 
+
+This is the von mises result
+
+<img width="213" height="609" alt="image" src="https://github.com/user-attachments/assets/5c5e5152-e72b-4375-b608-fde07dae2812" />
+
+
+This is the deflection result
+
+<img width="208" height="592" alt="image" src="https://github.com/user-attachments/assets/dbd28932-3dd9-4b6f-aecf-fcc2e426b458" />
+
+
+This is the strain result
+
+<img width="218" height="582" alt="image" src="https://github.com/user-attachments/assets/1b3e05c2-5f9f-4cbf-a492-9cc852dd66d3" />
+
+
+For the second trial I increased the cross sectional area  
+
+This is the von mises result
+
+<img width="215" height="577" alt="image" src="https://github.com/user-attachments/assets/bec5ad1e-fc14-4d1e-b0bd-912c13769a0c" />
+
+
+This is the deflection result
+
+<img width="231" height="590" alt="image" src="https://github.com/user-attachments/assets/4c681433-801c-4f8f-a4ca-0832c8c0f797" />
+
+
+This is the strain result
+
+<img width="222" height="592" alt="image" src="https://github.com/user-attachments/assets/d6e7d0c8-1e02-48b5-8b47-d732b8453afe" />
+
+
+The max stress in the first trial was 1.8*10^8 Pa compared to the second trial's 4.5*10^7 Pa. The max deflection in the first trial was 7.5mm and 1.875mm in the second. The strain in the first trial was 1.2*10^-3 and the strain in the second trial was 3*10^-4. All the areas of concern were the same in both trials showing that stress was concentrated at the base of the frame, and the deflection was greatest at the point of the loads in the direction of the torque. Increasing the cross sectional area greatly improved all the results allowing us to reach a safety factor of 4. 
+
 ## Final Combined Bill of Materials - Mike Sweeney
 ## Bill of Materials and Labor Costs - Mike Sweeney
 
